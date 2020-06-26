@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+struct employee
+{
+char name[20];
+int age; int phonenumber;
+char salary;
+};
+struct employee e1={"Chirag",24,1234567788,20000};
+struct employee e2={"Arnav",31,1234567891,56000};
+struct employee e3={"Shivam",45,8881101111,30500};
+printf("("%s\t %d\t %d\t %f\n",e1.name,e1.age,e1.phonenumber,e1.salary);
+printf("("%s\t %d\t %d\t %f\n",e2.name,e2.age,e2.phonenumber,e2.salary);
+printf("("%s\t %d\t %d\t %f\n",e3.name,e3.age,e3.phonenumber,e3.salary);
+return 0;
+}
